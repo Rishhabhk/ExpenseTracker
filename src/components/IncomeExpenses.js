@@ -13,11 +13,11 @@ const IncomeExpenses = () => {
         <div className="inc-exp-container">
             <div>
                 <h4>Income</h4>
-                <p id='money-plus' className="money plus">$ {income}</p>
+                <p id='money-plus' className="money plus">&#8377; {income}</p>
             </div>
             <div>
                 <h4>Expense</h4>
-                <p id='money-minus' className="money minus">$ {expense}</p>
+                <p id='money-minus' className="money minus">&#8377; {expense}</p>
             </div>
         </div>
     )
